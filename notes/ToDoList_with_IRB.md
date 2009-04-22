@@ -6,7 +6,7 @@ Let's play the ToDoList with IRB!
 
 1. Download the following code.
 
-	- [odolist.rb](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/src/todolist.rb)
+	- [todolist.rb](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/src/todolist.rb)
 
 2. Run IRB with simple prompt mode.
 

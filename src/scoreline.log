@@ -1,0 +1,40 @@
+C:\ruby_metaprogramming_study_note\src>irb --prompt simple
+>> require 'todolist'
+[-- nothing yet --]
+=> true
+>> add 'Read chapter 13: Object individuation', :priority => 1
+=> nil
+>> add 'Debug CWoS (Code Wrapper on Shoes)', :priority => 3
+=> nil
+>> add 'Write a study note about method_missing', :priority => 2
+=> nil
+>> show
+0: {:priority=>1, :todo=>"Read chapter 13: Object individuation"}
+1: {:priority=>3, :todo=>"Debug CWoS (Code Wrapper on Shoes)"}
+2: {:priority=>2, :todo=>"Write a study note about method_missing"}
+=> nil
+>> cmd
+["cmd", "add", "method_missing", "start", "show", "delete"]
+=> nil
+>> sort_by_priority
+=> nil
+>> show
+0: {:priority=>1, :todo=>"Read chapter 13: Object individuation"}
+1: {:priority=>2, :todo=>"Write a study note about method_missing"}
+2: {:priority=>3, :todo=>"Debug CWoS (Code Wrapper on Shoes)"}
+=> nil
+>> cmd
+["cmd", "add", "method_missing", "sort_by_priority", "start", "show", "delete"]
+=> nil
+>> delete 1
+=> nil
+>> show
+0: {:priority=>1, :todo=>"Read chapter 13: Object individuation"}
+1: {:priority=>3, :todo=>"Debug CWoS (Code Wrapper on Shoes)"}
+=> nil
+>> done
+Sorry, not support done command.
+=> nil
+>> exit
+
+C:\ruby_metaprogramming_study_note\src>
