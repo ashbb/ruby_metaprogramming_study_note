@@ -1,7 +1,7 @@
 Ruby Metaprogramming Study Note
 ===============================
 I'm now taking a sniff of Ruby Metaprogramming. This is my tiny Study Note. :)   
-Apr. 22nd, 2009 by ashbb (Satoshi Asakawa)
+Apr. 24nd, 2009 by ashbb (Satoshi Asakawa)
 
 
 Videos
@@ -20,14 +20,17 @@ Books
 
 Sample Apps
 -----------
-1. [cold-sky-27](http://github.com/ashbb/cold-sky-27/tree/master)
+1. [cold-sky-27](http://github.com/ashbb/cold-sky-27/tree/master)   
   A simple twitter client on Heroku, written in Ruby DSL as a Sinatra app.
 
-2. [Dwemthy's Array Study Note](http://github.com/ashbb/dwemthys_array_study_note/tree/master)
+2. [Dwemthy's Array Study Note](http://github.com/ashbb/dwemthys_array_study_note/tree/master)   
   **\_why**'s mini tutorial about Ruby Metaprogramming.
 
-3. [ToDoList with IRB](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/ToDoList_with_IRB.md)
+3. [ToDoList with IRB](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/ToDoList_with_IRB.md)   
   A tiny sample program for the first exercise.
+
+4. [Turtle Graphics with Shoes](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/Turtle_Graphics_with_Shoes.md)   
+  Very simple Ruby DSL on Shoes.
 
 
 To do list

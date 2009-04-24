@@ -1,13 +1,13 @@
 # creature.rb
 class Shoes::Creature < Shoes::Widget
-  def initialize path, x, y
-    @path = path
-    @img = image path
-    @img.move x, y
+  def initialize paths, x, y
+    @paths = paths
+    rewrite x, y
+    @imgs.first.show
   end
   
   def glide args, opt = {:line => false}
-    args << @img.left << @img.top
+    args << @imgs.first.left << @imgs.first.top
     x1, y1, x0, y0 = args.collect{|e| e.to_f}
     
     a = animate(48) do |i|
@@ -36,15 +36,24 @@ class Shoes::Creature < Shoes::Widget
       @l.remove if @l
       strokewidth 6
       @l = line(x0 + 15, y0 + 15, x.to_i + 15, y.to_i + 15, :stroke => thistle)  if opt[:line]
-      @img.remove
-      @img = image @path, :left => x.to_i, :top => y.to_i
+      rewrite x.to_i, y.to_i
+      @imgs[(i / 12) % 2].show
       
       if i == max
         a.stop
         line(x0 + 15, y0 + 15, x.to_i + 15, y.to_i + 15, :stroke => peru)  if opt[:line]
-        @img.remove
-        @img = image @path, :left => x.to_i, :top => y.to_i
+        rewrite x.to_i, y.to_i
+        @imgs[(i / 12) % 2].show
       end
+    end
+  end
+  
+  def rewrite x, y
+    @imgs.each{|img| img.remove} if @imgs
+    @imgs = []
+    
+    @paths.each do |path|
+      @imgs.unshift image(path, :left => x, :top => y).hide
     end
   end
 end
