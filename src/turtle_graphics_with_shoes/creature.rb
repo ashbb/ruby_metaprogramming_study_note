@@ -1,12 +1,12 @@
 # creature.rb
 class Shoes::Creature < Shoes::Widget
-  def initialize paths, x, y
+  def initialize paths, x, y, eswn
     @paths = paths
-    rewrite x, y
+    rewrite x, y, eswn
     @imgs.first.show
   end
   
-  def glide args, opt = {:line => false}
+  def glide args, eswn, opt = {:line => false}
     args << @imgs.first.left << @imgs.first.top
     x1, y1, x0, y0 = args.collect{|e| e.to_f}
     
@@ -36,24 +36,29 @@ class Shoes::Creature < Shoes::Widget
       @l.remove if @l
       strokewidth 6
       @l = line(x0 + 15, y0 + 15, x.to_i + 15, y.to_i + 15, :stroke => thistle)  if opt[:line]
-      rewrite x.to_i, y.to_i
+      rewrite x.to_i, y.to_i, eswn
       @imgs[(i / 12) % 2].show
       
       if i == max
         a.stop
         line(x0 + 15, y0 + 15, x.to_i + 15, y.to_i + 15, :stroke => peru)  if opt[:line]
-        rewrite x.to_i, y.to_i
+        rewrite x.to_i, y.to_i, eswn
         @imgs[(i / 12) % 2].show
       end
     end
   end
   
-  def rewrite x, y
+  def rewrite x, y, eswn
     @imgs.each{|img| img.remove} if @imgs
     @imgs = []
     
-    @paths.each do |path|
+    eswn.map{|n| @paths[n]}.each do |path|
       @imgs.unshift image(path, :left => x, :top => y).hide
     end
+  end
+  
+  def rotate x, y, n
+    @imgs.each{|img| img.remove} if @imgs
+    @imgs = [image(@paths[n], :left => x, :top => y)]
   end
 end

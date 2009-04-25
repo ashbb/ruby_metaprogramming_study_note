@@ -3,6 +3,7 @@ class Turtle
   def initialize
     @x, @y = 200, 250
     @dirs = [[50, 0], [0, 50], [-50, 0], [0, -50]]
+    @eswn = [[0, 1], [2, 3], [4, 5], [6, 7]]
     @avatar = nil
     @pen = false
     @track = []
@@ -16,20 +17,24 @@ class Turtle
   
   def forward
     x, y = @dirs[0]
-    @track << [@x += x, @y += y, @pen]
+    @track << [@x += x, @y += y, @eswn[0], @pen]
   end
   
   def back
     x, y = @dirs[0]
-    @track << [@x -= x, @y -= y, @pen]
+    @track << [@x -= x, @y -= y, @eswn[0], @pen]
   end
   
   def right
     @dirs.push @dirs.shift
+    @eswn.push @eswn.shift
+    @track << [@x, @y, @eswn[0], :right]
   end
   
   def left
     @dirs.unshift @dirs.pop
+    @eswn.unshift @eswn.pop
+    @track << [@x, @y, @eswn[0], :left]
   end
   
   def pen_up

@@ -1,7 +1,7 @@
 Ruby Metaprogramming Study Note
 ===============================
 I'm now taking a sniff of Ruby Metaprogramming. This is my tiny Study Note. :)   
-Apr. 24nd, 2009 by ashbb (Satoshi Asakawa)
+Apr. 25nd, 2009 by ashbb (Satoshi Asakawa)
 
 
 Videos
