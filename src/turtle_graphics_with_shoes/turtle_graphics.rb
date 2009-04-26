@@ -2,7 +2,7 @@
 require 'creature'
 require 'turtle'
 
-Shoes.app :title => 'Turtle Graphics v0.3', :width => 660 do  
+Shoes.app :title => 'Turtle Graphics v0.4', :width => 660 do  
   def turtle_walk
     background forestgreen
     t = Turtle.new
@@ -25,7 +25,7 @@ Shoes.app :title => 'Turtle Graphics v0.3', :width => 660 do
       paths = (0..7).map{|i| "turtle%s.png" % i}
       t.avatar = creature paths, 200, 250, [0, 1]
       @run = proc do
-        e = every 3 do
+        e = every 1 do
           unless t.track.empty?
             x, y, eswn, flag = t.track.shift
             case flag
@@ -34,7 +34,7 @@ Shoes.app :title => 'Turtle Graphics v0.3', :width => 660 do
             end
           else
             e.stop
-          end
+          end unless t.avatar.moving?
         end
       end
     end
