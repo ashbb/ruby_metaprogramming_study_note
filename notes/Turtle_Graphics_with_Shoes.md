@@ -5,7 +5,7 @@ Turtle Graphics with Shoes
 
 Online demo is [here](http://www.rin-shun.com/rubylearning/shoes/turtle_graphics_with_shoes.swf.html).
 
-Code was written. Now need some introduction...
+My little turtle can draw `HI!` (see the below snapshot) by this [Ruby DSL code](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/src/turtle_graphics_hi.dsl).
 
 
 Snapshot
