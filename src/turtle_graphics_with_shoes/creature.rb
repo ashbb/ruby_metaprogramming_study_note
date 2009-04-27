@@ -5,6 +5,7 @@ class Shoes::Creature < Shoes::Widget
     rewrite x, y, eswn
     @imgs.first.show
     @moving = false
+    pen_style
   end
   
   def glide args, eswn, opt = {:line => false}
@@ -36,7 +37,7 @@ class Shoes::Creature < Shoes::Widget
       end
         
       @l.remove if @l
-      strokewidth 6
+      strokewidth @strokewidth
       @l = line(x0 + 15, y0 + 15, x.to_i + 15, y.to_i + 15, :stroke => thistle)  if opt[:line]
       rewrite x.to_i, y.to_i, eswn
       @imgs[(i / 12) % 2].show
@@ -44,7 +45,7 @@ class Shoes::Creature < Shoes::Widget
       if i == max
         a.stop
         @moving = false
-        line(x0 + 15, y0 + 15, x.to_i + 15, y.to_i + 15, :stroke => peru)  if opt[:line]
+        line(x0 + 15, y0 + 15, x.to_i + 15, y.to_i + 15, :stroke => @stroke)  if opt[:line]
         rewrite x.to_i, y.to_i, eswn
         @imgs[(i / 12) % 2].show
       end
@@ -67,5 +68,12 @@ class Shoes::Creature < Shoes::Widget
   
   def moving?
     @moving
+  end
+  
+  def pen_style args ={:strokewidth => 6, :stroke => 'peru'}
+    # debug args.inspect
+    stroke = args[:stroke]
+    @stroke = eval(stroke) if stroke
+    @strokewidth = args[:strokewidth] || @strokewidth
   end
 end

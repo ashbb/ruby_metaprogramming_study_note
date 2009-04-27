@@ -2,7 +2,7 @@
 require 'creature'
 require 'turtle'
 
-Shoes.app :title => 'Turtle Graphics v0.4', :width => 660 do  
+Shoes.app :title => 'Turtle Graphics v0.5', :width => 660 do  
   def turtle_walk
     background forestgreen
     t = Turtle.new
@@ -27,10 +27,11 @@ Shoes.app :title => 'Turtle Graphics v0.4', :width => 660 do
       @run = proc do
         e = every 1 do
           unless t.track.empty?
-            x, y, eswn, flag = t.track.shift
+            item0, item1, eswn, flag = t.track.shift
             case flag
-              when :right, :left : t.avatar.rotate x, y, eswn[0]
-              else t.avatar.glide [x, y], eswn, :line => flag
+              when :right, :left : t.avatar.rotate item0, item1, eswn[0]
+              when :others : t.avatar.send(item0, *item1) if t.avatar.respond_to? item0
+              else t.avatar.glide [item0, item1], eswn, :line => flag
             end
           else
             e.stop

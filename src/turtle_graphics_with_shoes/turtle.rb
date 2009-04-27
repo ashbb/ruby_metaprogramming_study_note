@@ -44,4 +44,8 @@ class Turtle
   def pen_down
     @pen = true
   end
+  
+  def method_missing m, *args
+    @track << [m, args, nil, :others]
+  end
 end
