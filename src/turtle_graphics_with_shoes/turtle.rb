@@ -47,5 +47,6 @@ class Turtle
   
   def method_missing m, *args
     @track << [m, args, nil, :others]
+    m.to_s
   end
 end
