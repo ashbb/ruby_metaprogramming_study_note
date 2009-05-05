@@ -2,7 +2,7 @@
 require 'creature'
 require 'turtle'
 
-Shoes.app :title => 'Turtle Graphics v0.5', :width => 660 do  
+Shoes.app :title => 'Turtle Graphics v0.6', :width => 660 do  
   def turtle_walk
     background forestgreen
     t = Turtle.new

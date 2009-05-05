@@ -12,6 +12,7 @@ class Turtle
   attr_accessor :avatar, :track
   
   def turtle_graphics str
+    f, b, r, l = lambda{forward}, lambda{back}, lambda{right}, lambda{left}
     instance_eval str
   end
   
