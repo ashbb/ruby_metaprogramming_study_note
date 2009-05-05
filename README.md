@@ -1,12 +1,14 @@
 Ruby Metaprogramming Study Note
 ===============================
 I'm now taking a sniff of Ruby Metaprogramming. This is my tiny Study Note. :)   
-Apr. 30th, 2009 by ashbb (Satoshi Asakawa)
+May 5th, 2009 by ashbb (Satoshi Asakawa)
 
 
 Videos
 ------
-1. [MetaProgramming - Extending Ruby for Fun and Profit](http://www.infoq.com/presentations/metaprogramming-ruby)
+1. [MetaProgramming - Extending Ruby for Fun and Profit](http://www.infoq.com/presentations/metaprogramming-ruby) - free
+
+2. [The Ruby Object Model and Metaprogramming: Episode 1-7](http://www.pragprog.com/screencasts/v-dtrubyom/the-ruby-object-model-and-metaprogramming) - bought
 
 
 Books
