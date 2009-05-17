@@ -1,7 +1,7 @@
 Ruby Metaprogramming Study Note
 ===============================
 I'm now taking a sniff of Ruby Metaprogramming. This is my tiny Study Note. :)   
-May 5th, 2009 by ashbb (Satoshi Asakawa)
+May 17th, 2009 by ashbb (Satoshi Asakawa)
 
 
 Videos
@@ -19,7 +19,9 @@ Books
 
 3. [The Well-Grounded Rubyist](http://www.manning.com/black2/), Part 3: Ruby dynamics
 
-4. [The Book Of Ruby](http://www.sapphiresteel.com/The-Book-Of-Ruby), Chapter 20: DYNAMIC PROGRAMMING
+4. [The Book Of Ruby](http://www.sapphiresteel.com/The-Book-Of-Ruby), Chapter 20: Dynamic Programming
+
+5. [Ruby Best Practices](http://oreilly.com/catalog/9780596156749/), Chapter 3: Mastering the Dynamic Toolkit
 
 
 Sample Apps
