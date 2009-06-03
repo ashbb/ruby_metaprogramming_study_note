@@ -1,7 +1,7 @@
 Ruby Metaprogramming Study Note
 ===============================
 I'm now taking a sniff of Ruby Metaprogramming. This is my tiny Study Note. :)   
-May 23th, 2009 by ashbb (Satoshi Asakawa)
+Jun 3rd, 2009 by ashbb (Satoshi Asakawa)
 
 
 Videos
@@ -40,6 +40,19 @@ Sample Apps
 
 4. [Turtle Graphics with Shoes](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/Turtle_Graphics_with_Shoes.md)   
   Very simple Ruby DSL on Shoes.
+
+
+Interesting Articles
+--------------------
+- [Seeing Metaclasses Clearly](http://whytheluckystiff.net/articles/seeingMetaclassesClearly.html)
+- [Extending your include knowledge of Ruby](http://macournoyer.wordpress.com/2007/07/06/extending-your-include-knowledge-of-ruby/)
+- [Using methodmissing and respondto? to create dynamic methods](http://technicalpickles.com/posts/using-method_missing-and-respond_to-to-create-dynamic-methods)
+- [Ola Bini's blogs on Meta programming](http://ola-bini.blogspot.com/search/label/metaprogramming)
+
+
+Small Snippets
+--------------
+- [ss001](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/snippets/ss001.md): nested def keyword
 
 
 To do list
