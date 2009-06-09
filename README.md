@@ -1,7 +1,7 @@
 Ruby Metaprogramming Study Note
 ===============================
 I'm now taking a sniff of Ruby Metaprogramming. This is my tiny Study Note. :)   
-Jun 3rd, 2009 by ashbb (Satoshi Asakawa)
+June 9th, 2009 by ashbb (Satoshi Asakawa)
 
 
 Videos
@@ -40,6 +40,9 @@ Sample Apps
 
 4. [Turtle Graphics with Shoes](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/Turtle_Graphics_with_Shoes.md)   
   Very simple Ruby DSL on Shoes.
+
+5. [An Exercise in Metaprogramming with Ruby - Study Note](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/An_Exercise_in_Metaprogramming_with_Ruby.md)   
+  ***Hal Fulton*'s fantastic exercise.
 
 
 Interesting Articles

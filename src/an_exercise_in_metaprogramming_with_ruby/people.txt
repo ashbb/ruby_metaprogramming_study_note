@@ -1,0 +1,5 @@
+name,age,weight,height
+"Smith, John", 35, 175, "5'10"
+"Ford, Anne", 49, 142, "5'4"
+"Taylor, Burt", 55, 173, "5'10"
+"Zubrin, Candace", 23, 133, "5'6"

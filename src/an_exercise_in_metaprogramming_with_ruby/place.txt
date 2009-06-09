@@ -1,0 +1,4 @@
+latitude,longitude,description
+47.23,59.34,'Omaha'
+32.17,39.24,'New York City'
+73.11,48.91,'Carlsbad Caverns'
