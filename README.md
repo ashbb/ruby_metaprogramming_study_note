@@ -42,7 +42,7 @@ Sample Apps
   Very simple Ruby DSL on Shoes.
 
 5. [An Exercise in Metaprogramming with Ruby - Study Note](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/An_Exercise_in_Metaprogramming_with_Ruby.md)   
-  ***Hal Fulton*'s fantastic exercise.
+  **Hal Fulton**'s fantastic exercise.
 
 6. [Human Walking](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/Human_Walking.md)   
   Using `eval`, `instance_eval`, `instance_variables`, `instance_variable_set`. 
