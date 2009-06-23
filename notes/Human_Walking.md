@@ -8,6 +8,8 @@ Curious about that. Tried to do on Shoes. :-D
 
 Press `save` button, you can save 15 points' instance variables data as the part of Ruby code. That can be used as the instance variables again directly.
 
+Look at [online demo](http://www.rin-shun.com/rubylearning/shoes/human_walking.swf.html).
+
 
 Snapshot
 --------
