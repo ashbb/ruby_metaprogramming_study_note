@@ -1,7 +1,7 @@
 Ruby Metaprogramming Study Note
 ===============================
 I'm now taking a sniff of Ruby Metaprogramming. This is my tiny Study Note. :)   
-June 9th, 2009 by ashbb (Satoshi Asakawa)
+June 23th, 2009 by ashbb (Satoshi Asakawa)
 
 
 Videos
@@ -42,7 +42,10 @@ Sample Apps
   Very simple Ruby DSL on Shoes.
 
 5. [An Exercise in Metaprogramming with Ruby - Study Note](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/An_Exercise_in_Metaprogramming_with_Ruby.md)   
-  **Hal Fulton**'s fantastic exercise.
+  ***Hal Fulton*'s fantastic exercise.
+
+6. [Human Walking](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/Human_Walking.md)   
+  Using `eval`, `instance_eval`, `instance_variables`, `instance_variable_set`. 
 
 
 Interesting Articles
