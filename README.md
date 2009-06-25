@@ -1,7 +1,7 @@
 Ruby Metaprogramming Study Note
 ===============================
 I'm now taking a sniff of Ruby Metaprogramming. This is my tiny Study Note. :)   
-June 23th, 2009 by ashbb (Satoshi Asakawa)
+June 25th, 2009 by ashbb (Satoshi Asakawa)
 
 
 Videos
@@ -59,6 +59,7 @@ Interesting Articles
 Small Snippets
 --------------
 - [ss001](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/snippets/ss001.md): nested def keyword
+- [ss002](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/snippets/ss002.md): closure and flat scope
 
 
 To do list
