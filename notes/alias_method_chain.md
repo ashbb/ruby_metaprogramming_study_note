@@ -1,6 +1,6 @@
 alias\_method\_chain
 ------------------
-Rails provides a generic aliasing method `alias\_method\_chain` as the `ActiveSupport` library.
+Rails provides a generic aliasing method `alias_method_chain` as the `ActiveSupport` library.
 
 	# aliasing.rb
 	
@@ -46,7 +46,7 @@ Output is:
 
 
 Now suppose you want to wrap logging behavior around `Hello#hello()`.
-You can use `ActiveSupport::Module::alias\_method\_chain()`.
+You can use `ActiveSupport::Module::alias_method_chain()`.
 
 	# hello_with_logger.rb
 	require 'hello'

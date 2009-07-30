@@ -49,7 +49,7 @@ Sample Apps
 6. [Human Walking](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/Human_Walking.md)   
   Using `eval`, `instance_eval`, `instance_variables`, `instance_variable_set`. 
 
-7. [alias\_method\_chain](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/alias_method_chain.md)
+7. [alias\_method\_chain](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/alias_method_chain.md)   
   Rails' fantastic magic. Presented on **Metaprogramming Ruby, Chapter 7**.
 
 
