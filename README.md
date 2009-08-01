@@ -65,7 +65,7 @@ Small Snippets
 --------------
 - [ss001](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/snippets/ss001.md): nested def keyword
 - [ss002](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/snippets/ss002.md): closure and flat scope
--[ss003](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/snippets/ss003.md): class variables belong to class hierarchies
+- [ss003](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/snippets/ss003.md): class variables belong to class hierarchies
 
 
 To do list
