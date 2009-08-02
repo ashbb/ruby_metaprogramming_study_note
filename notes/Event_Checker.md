@@ -71,8 +71,8 @@ what_day.rb
 	end
 
 
-Do `ruby event_cheker.rb`
--------------------------
+Execute event_cheker.rb
+-----------------------
 	# event_checker.rb
 	
 	def title msg

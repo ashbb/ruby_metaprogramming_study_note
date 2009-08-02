@@ -52,7 +52,7 @@ Sample Apps
 7. [alias\_method\_chain](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/alias_method_chain.md)   
   Rails' fantastic magic. Refer to **Metaprogramming Ruby, Chapter 7**.
 
-8. [Event Checker](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/Event_Checker.md)
+8. [Event Checker](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/Event_Checker.md)   
   Refer to **Metaprogramming Ruby, Chapter 3**.
 
 
