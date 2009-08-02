@@ -1,7 +1,7 @@
 Ruby Metaprogramming Study Note
 ===============================
 I'm now taking a sniff of Ruby Metaprogramming. This is my tiny Study Note. :)   
-Aug. 1st, 2009 by ashbb (Satoshi Asakawa)
+Aug. 2st, 2009 by ashbb (Satoshi Asakawa)
 
 
 Videos
@@ -50,7 +50,10 @@ Sample Apps
   Using `eval`, `instance_eval`, `instance_variables`, `instance_variable_set`. 
 
 7. [alias\_method\_chain](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/alias_method_chain.md)   
-  Rails' fantastic magic. Presented on **Metaprogramming Ruby, Chapter 7**.
+  Rails' fantastic magic. Refer to **Metaprogramming Ruby, Chapter 7**.
+
+8. [Event Checker](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/Event_Checker.md)
+  Refer to **Metaprogramming Ruby, Chapter 3**.
 
 
 Interesting Articles
