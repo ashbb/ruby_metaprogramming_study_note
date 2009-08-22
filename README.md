@@ -1,7 +1,7 @@
 Ruby Metaprogramming Study Note
 ===============================
 I'm now taking a sniff of Ruby Metaprogramming. This is my tiny Study Note. :)   
-Aug. 2st, 2009 by ashbb (Satoshi Asakawa)
+Aug. 22st, 2009 by ashbb (Satoshi Asakawa)
 
 
 Videos
@@ -54,6 +54,12 @@ Sample Apps
 
 8. [Event Checker](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/Event_Checker.md)   
   Refer to **Metaprogramming Ruby, Chapter 3**.
+
+
+Previous Exercises of Ruby Metaprogramming Course at RubyLearning
+-----------------------------------------------------------------
+
+- [XML generator](http://github.com/ashbb/ruby_metaprogramming_study_note/tree/master/notes/XML_generator.md)
 
 
 Interesting Articles
