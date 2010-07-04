@@ -2,7 +2,7 @@
 require 'creature'
 require 'turtle'
 
-Shoes.app :title => 'Turtle Graphics v0.6', :width => 660 do  
+Shoes.app :title => 'Turtle Graphics v0.6a', :width => 660 do  
   def turtle_walk
     background forestgreen
     t = Turtle.new
@@ -29,8 +29,8 @@ Shoes.app :title => 'Turtle Graphics v0.6', :width => 660 do
           unless t.track.empty?
             item0, item1, eswn, flag = t.track.shift
             case flag
-              when :right, :left : t.avatar.rotate item0, item1, eswn[0]
-              when :others : t.avatar.send(item0, *item1) if t.avatar.respond_to? item0
+              when :right, :left ; t.avatar.rotate item0, item1, eswn[0]
+              when :others ; t.avatar.send(item0, *item1) if t.avatar.respond_to? item0
               else t.avatar.glide [item0, item1], eswn, :line => flag
             end
           else
